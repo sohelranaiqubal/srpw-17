@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Personal Blog Portfolio</title>
+        <!-- Css Stylesheet -->
+        <link rel="stylesheet" href="css/blog.css">
+        <!-- fontawesome cdn link -->
+        <link rel="stylesheet" href="css/fontawesome.min.css">
+        <!-- google font link -->
+        <link rel="stylesheet" href="@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600&display=swap');">
+    </head>
+<body class="light-theme">
+    <header >
+        <div class="container">
+            <div class="d-flex justify-space-between">
+                <button class="nav-toggle-btn"><i class="fas fa-bars"></i></button>
+                <div class="logo"><img src="img/about/srlogo.jpg" alt="myimage"></div>
+                <ul class="nav-menu-top">
+                    <li>
+                        <a href="index.html">
+                            <i class="fas fa-house"></i>
+                            <span class="hide">Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about-me.html">
+                            <i class="fas fa-user"></i>
+                            <span class="hide">About</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="services.html">
+                            <i class="fas fa-gear"></i>
+                            <span class="hide">Services</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">
+                            <i class="fas fa-briefcase"></i>
+                            <span class="hide">Portfolio</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="blog.html">
+                            <i class="fab fa-blogger-b"></i>
+                            <span class="hide">Blog</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            <i class="fas fa-address-book"></i>
+                            <span class="hide">Contact</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <button class="change-mode"><i class="fas fa-moon"></i></button>
+            </div>
+        </div>
+    </header>
+    <div class="main-container container">
+        <div class="section-title">
+            <h1 class="title-bg font-rubik uppercase">My Blog</h1>
+            <h2 class="title-main font-heebo uppercase"> My <span class="clr-red">Blog</span></h2>
+        </div>
+
+<!-- Hero Section start -->
+<div class="hero">
+    <div class="hero-container">
+        <div class="left">
+            <h1 class="h1">
+                Hi, I'm <b>Sohel&nbsp;Rana</b>.
+                <br>Web Developer
+            </h1>
+            <p class="h3">
+                Specialized is <abbr title="Accessibility">Ally</abbr>
+                and Core Web Vitals
+            </p>
+
+            <div class="btn-group">
+                <a href="#" class="btn btn-primary">Contac Me</a>
+                <a href="#" class="btn btn-secondary">About Me</a>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="pattern-bg"></div>
+            <div class="img-box">
+                <img src="img/blog/hero.png" alt="jully" class="hero-img">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Hero Section End -->
+
+<!-- =========== Main Section Start =========== -->
+<div class="main">
+    <div class="mainContainer">
+        <!-- Blog section -->
+
+        <div class="blog">
+           <h2 class="h2">Latest Blog Post</h2>
+           <div class="blog-card-group">
+            <div class="blog-card">
+                <div class="blog-card-banner">
+                    <img src="img/blog/blog-1.png" alt="blog-1" width="250" class="blog-banner-img">
+                </div>
+                <div class="blog-content-wrapper">
+                    <button class="blog-topic text-timy">Database</button>
+                    <h3>
+                        <a href="#" class="3">Bulding aicrisevices with Dropmizard, mongoDB & Docker</a>
+                    </h3>
+                    <p class="blog-text">
+                        Human being can do anything, what ever he wants to do in his pations, if he never quit untill he succied.
+                        You can fail thousand of time but don'quit forver.
+                        if you wants to success you have to accept fail.
+
+                    </p>
+                    <div class="wrapper-flex">
+                        <div class="profile-wrapper">
+                            <img src="img/blog/author.png" alt="Walkar" width="50">
+                        </div>
+
+                        <div class="wrapper">
+                            <a href="#" class="h4"> Julia Walkar</a>
+                            <p class="text-sa">
+                                <time datetime="2022-01-17">Jan 17, 2022</time>
+                                <span class="separator"></span>
+                                <i class="fas fa-address-book"></i>
+                                <time datetime="PT3M">3 min</time>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-card">
+                <div class="blog-card-banner">
+                    <img src="img/blog/blog-2.png" alt="Fast web page loading on a $20 feature phone" width="250" class="blog-banner-img">
+                </div>
+                <div class="blog-content-wrapper">
+                    <button class="blog-topic text-timy">Web Performance</button>
+                    <h3>
+                        <a href="#" class="3">Fast web page loading on a $20 feature phone</a>
+                    </h3>
+                    <p class="blog-text">
+                       Feature phones are affordable (under$20-25), low-end devices enabling 100s of millinons of users in 
+                       developing countries to levirage the web. Think of them as a light verion of a smart phone.
+
+                    </p>
+                    <div class="wrapper-flex">
+                        <div class="profile-wrapper">
+                            <img src="img/blog/author.png" alt="Walkar" width="50">
+                        </div>
+
+                        <div class="wrapper">
+                            <a href="#" class="h4"> Julia Walkar</a>
+                            <p class="text-sa">
+                                <time datetime="2022-01-17">Des 10, 20211</time>
+                                <span class="separator"></span>
+                                <i class="fas fa-address-book"></i>
+                                <time datetime="PT2M">2 min</time>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-card">
+                <div class="blog-card-banner">
+                    <img src="img/blog/blog-3.png" alt="Accessibility Tips for Web Developer" width="250" class="blog-banner-img">
+                </div>
+                <div class="blog-content-wrapper">
+                    <button class="blog-topic text-timy">Accessibility</button>
+                    <h3>
+                        <a href="#" class="3">Accessibility Tips for Web Developer</a>
+                    </h3>
+                    <p class="blog-text">
+                       It's awesome to build sites that are inclusive and accessible to everyone.Ther are al least six key
+                       areas of disability we can optimiae for: visual, hearing, mobility, cognition,speceh and nautal.
+                       Many tools and resources can help here, even if you are totlally new.
+                    </p>
+                    <div class="wrapper-flex">
+                        <div class="profile-wrapper">
+                            <img src="img/blog/author.png" alt="Walkar" width="50">
+                        </div>
+
+                        <div class="wrapper">
+                            <a href="#" class="h4"> Julia Walkar</a>
+                            <p class="text-sa">
+                                <time datetime="2021-11-28">Nov 20, 2021</time>
+                                <span class="separator"></span>
+                                <i class="fas fa-address-book"></i>
+                                <time datetime="PT4M">4 min</time>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-card">
+                <div class="blog-card-banner">
+                    <img src="img/blog/blog-4.png" alt="Accessibility Tips for Web Developer" width="250" class="blog-banner-img">
+                </div>
+                <div class="blog-content-wrapper">
+                    <button class="blog-topic text-timy">Accessibility</button>
+                    <h3>
+                        <a href="#" class="3">Accessibility Tips for Web Developer</a>
+                    </h3>
+                    <p class="blog-text">
+                       It's awesome to build sites that are inclusive and accessible to everyone.Ther are al least six key
+                       areas of disability we can optimiae for: visual, hearing, mobility, cognition,speceh and nautal.
+                       Many tools and resources can help here, even if you are totlally new.
+                    </p>
+                    <div class="wrapper-flex">
+                        <div class="profile-wrapper">
+                            <img src="img/blog/author.png" alt="Walkar" width="50">
+                        </div>
+
+                        <div class="wrapper">
+                            <a href="#" class="h4"> Julia Walkar</a>
+                            <p class="text-sa">
+                                <time datetime="2021-11-28">Nov 20, 2021</time>
+                                <span class="separator"></span>
+                                <i class="fas fa-address-book"></i>
+                                <time datetime="PT4M">4 min</time>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-card">
+                <div class="blog-card-banner">
+                    <img src="img/blog/blog-6.png" alt="Accessibility Tips for Web Developer" width="250" class="blog-banner-img">
+                </div>
+                <div class="blog-content-wrapper">
+                    <button class="blog-topic text-timy">Accessibility</button>
+                    <h3>
+                        <a href="#" class="3">Accessibility Tips for Web Developer</a>
+                    </h3>
+                    <p class="blog-text">
+                       It's awesome to build sites that are inclusive and accessible to everyone.Ther are al least six key
+                       areas of disability we can optimiae for: visual, hearing, mobility, cognition,speceh and nautal.
+                       Many tools and resources can help here, even if you are totlally new.
+                    </p>
+                    <div class="wrapper-flex">
+                        <div class="profile-wrapper">
+                            <img src="img/blog/author.png" alt="Walkar" width="50">
+                        </div>
+
+                        <div class="wrapper">
+                            <a href="#" class="h4"> Julia Walkar</a>
+                            <p class="text-sa">
+                                <time datetime="2021-11-28">Nov 20, 2021</time>
+                                <span class="separator"></span>
+                                <i class="fas fa-address-book"></i>
+                                <time datetime="PT4M">4 min</time>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-card">
+                <div class="blog-card-banner">
+                    <img src="img/blog/blog-7.png" alt="Accessibility Tips for Web Developer" width="250" class="blog-banner-img">
+                </div>
+                <div class="blog-content-wrapper">
+                    <button class="blog-topic text-timy">Accessibility</button>
+                    <h3>
+                        <a href="#" class="3">Accessibility Tips for Web Developer</a>
+                    </h3>
+                    <p class="blog-text">
+                       It's awesome to build sites that are inclusive and accessible to everyone.Ther are al least six key
+                       areas of disability we can optimiae for: visual, hearing, mobility, cognition,speceh and nautal.
+                       Many tools and resources can help here, even if you are totlally new.
+                    </p>
+                    <div class="wrapper-flex">
+                        <div class="profile-wrapper">
+                            <img src="img/blog/author.png" alt="Walkar" width="50">
+                        </div>
+
+                        <div class="wrapper">
+                            <a href="#" class="h4"> Julia Walkar</a>
+                            <p class="text-sa">
+                                <time datetime="2021-11-28">Nov 20, 2021</time>
+                                <span class="separator"></span>
+                                <i class="fas fa-address-book"></i>
+                                <time datetime="PT4M">4 min</time>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-card">
+                <div class="blog-card-banner">
+                    <img src="img/blog/blog-8.png" alt="Accessibility Tips for Web Developer" width="250" class="blog-banner-img">
+                </div>
+                <div class="blog-content-wrapper">
+                    <button class="blog-topic text-timy">Accessibility</button>
+                    <h3>
+                        <a href="#" class="3">Accessibility Tips for Web Developer</a>
+                    </h3>
+                    <p class="blog-text">
+                       It's awesome to build sites that are inclusive and accessible to everyone.Ther are al least six key
+                       areas of disability we can optimiae for: visual, hearing, mobility, cognition,speceh and nautal.
+                       Many tools and resources can help here, even if you are totlally new.
+                    </p>
+                    <div class="wrapper-flex">
+                        <div class="profile-wrapper">
+                            <img src="img/blog/author.png" alt="Walkar" width="50">
+                        </div>
+
+                        <div class="wrapper">
+                            <a href="#" class="h4"> Julia Walkar</a>
+                            <p class="text-sa">
+                                <time datetime="2021-11-28">Nov 20, 2021</time>
+                                <span class="separator"></span>
+                                <i class="fas fa-address-book"></i>
+                                <time datetime="PT4M">4 min</time>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-card">
+                <div class="blog-card-banner">
+                    <img src="img/blog/blog-9.png" alt="Accessibility Tips for Web Developer" width="250" class="blog-banner-img">
+                </div>
+                <div class="blog-content-wrapper">
+                    <button class="blog-topic text-timy">Accessibility</button>
+                    <h3>
+                        <a href="#" class="3">Accessibility Tips for Web Developer</a>
+                    </h3>
+                    <p class="blog-text">
+                       It's awesome to build sites that are inclusive and accessible to everyone.Ther are al least six key
+                       areas of disability we can optimiae for: visual, hearing, mobility, cognition,speceh and nautal.
+                       Many tools and resources can help here, even if you are totlally new.
+                    </p>
+                    <div class="wrapper-flex">
+                        <div class="profile-wrapper">
+                            <img src="img/blog/author.png" alt="Walkar" width="50">
+                        </div>
+
+                        <div class="wrapper">
+                            <a href="#" class="h4"> Julia Walkar</a>
+                            <p class="text-sa">
+                                <time datetime="2021-11-28">Nov 20, 2021</time>
+                                <span class="separator"></span>
+                                <i class="fas fa-address-book"></i>
+                                <time datetime="PT4M">4 min</time>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-card">
+                <div class="blog-card-banner">
+                    <img src="img/blog/blog-10.png" alt="Accessibility Tips for Web Developer" width="250" class="blog-banner-img">
+                </div>
+                <div class="blog-content-wrapper">
+                    <button class="blog-topic text-timy">Accessibility</button>
+                    <h3>
+                        <a href="#" class="3">Accessibility Tips for Web Developer</a>
+                    </h3>
+                    <p class="blog-text">
+                       It's awesome to build sites that are inclusive and accessible to everyone.Ther are al least six key
+                       areas of disability we can optimiae for: visual, hearing, mobility, cognition,speceh and nautal.
+                       Many tools and resources can help here, even if you are totlally new.
+                    </p>
+                    <div class="wrapper-flex">
+                        <div class="profile-wrapper">
+                            <img src="img/blog/author.png" alt="Walkar" width="50">
+                        </div>
+
+                        <div class="wrapper">
+                            <a href="#" class="h4"> Julia Walkar</a>
+                            <p class="text-sa">
+                                <time datetime="2021-11-28">Nov 20, 2021</time>
+                                <span class="separator"></span>
+                                <i class="fas fa-address-book"></i>
+                                <time datetime="PT4M">4 min</time>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           </div>
+
+           <button class="btn load-more">Load More</button>
+        </div>
+
+
+        <!-- Aside -->
+        <div class="aside">
+            <div class="topics">
+                <h2 class="h2">Topics</h2>
+                <a href="#" class="topic-btn">
+                    <div class="icon-box">
+                        <i class="fab fa-blogger-b"></i>
+                    </div>
+                    <p>Database</p>
+                </a>
+                <a href="#" class="topic-btn">
+                    <div class="icon-box">
+                        <i class="fas fa-address-book"></i>
+                    </div>
+                    <p>Accessibility</p>
+                </a>
+
+                <a href="#" class="topic-btn">
+                    <div class="icon-box">
+                        <i class="fab fa-blogger-b"></i>
+                    </div>
+                    <p>Accessibility</p>
+                </a>
+                <a href="#" class="topic-btn">
+                    <div class="icon-box">
+                        <i class="fab fa-blogger-b"></i>
+                    </div>
+                    <p>Web Performance</p>
+                </a>
+            </div>
+
+            <div class="tags">
+                <h2 class="h2">Tags</h2>
+                <div class="wrapper">
+                    <button class="hashtag">#MongoDB</button>
+                    <button class="hashtag">#nodejs</button>
+                    <button class="hashtag">#ally</button>
+                    <button class="hashtag">#nobility</button>
+                    <button class="hashtag">#inclusion</button>
+                    <button class="hashtag">#html</button>
+                    <button class="hashtag">#css</button>
+                    <button class="hashtag">#Performance</button>
+                </div>
+            </div>
+
+            <div class="contact">
+                <h2 class="h2">Let's a Talk</h2>
+                <div class="wrapper">
+                    <p>
+                        If someone give his 100 percent for his success for any fild on one can beats him.
+                    </p>
+
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" class="icon-box discord">
+                                <i class="fas fa-user"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon-box twitter">
+                                <i class="fas fa-briefcase"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon-box facebook">
+                                <i class="fab fa-blogger-b"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="newsletter">
+                <h2 class="h2">Newsletter</h2>
+
+                <div class="wrapper">
+                    <p>
+                        If you lost should be think, you are not gave your 100 percent attention.
+                    </p>
+                    <form action="#">
+                        <input type="email" name="email" placeholder="Email Address" required>
+                        <button class="btn btn-primary" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ====================== Footer ======================= -->
+<footer>
+    <div class="footerContainer">
+        <div class="wrapper">
+            <a href="#" class="footer-logo">
+                <img src="img/blog/logo-light.svg" alt="DevBlog" width="150" class="logo-light">
+                <!-- <img src="img/blog/logo-dark.svg" alt="dark" width="150" class="logo-dark"> -->
+            </a>
+            <p class="footer-text">
+                lerar about web accessibility, web Performance, and database management
+            </p>
+        </div>
+        <div class="wrapper">
+            <p class="footer-title">Quick Links</p>
+            <ul>
+                <li>
+                    <a href="#">Advertise with us</a>
+                </li>
+                <li>
+                    <a href="#">About us</a>
+                </li>
+                <li>
+                    <a href="#">Contact us</a>
+                </li>
+            </ul>
+        </div>
+        <div class="wrapper">
+            <p class="footer-title">Legal stuff</p>
+            <ul>
+                <li>
+                    <a href="#">Privacy Notice</a>
+                </li>
+                <li>
+                    <a href="#">Cookie Policy</a>
+                </li>
+                <li>
+                    <a href="#">Terms of use</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <p class="copyright">
+        &copy; copyright 2022 <a>DevBlog</a>
+    </p>
+</footer>
+</div>
+</body>
+<script src="js/main.js"></script>
+</html>
